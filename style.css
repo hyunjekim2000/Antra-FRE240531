@@ -1,0 +1,60 @@
+.container {
+    display:flex;
+    flex-direction: column;
+    background-color: #fff;
+    border: 1px solid #cfd9de;
+    border-radius: 16px;
+    padding: 12px;
+    max-width: 560px;
+}
+
+.thumbnail {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+
+.topContent {
+    display: flex;
+    align-items: flex-start;
+}
+
+.metadata {
+    display: flex;
+    color: #71757b;
+    font-size: 15px;
+    margin-bottom: 2px;
+}
+
+.mainContent {
+    margin-bottom: 12px;
+    margin-left: 12px;
+    margin-top: 0;
+    font-family: sans-serif;
+}
+
+.name {
+    margin-right: 4px;
+    color: black;
+    font-weight: bold;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin-left: 60px;
+}
+
+.actionCount {
+    margin-left: 12px;
+    color: #536471;
+    font-size: 13px;
+}
+
+.footer > div {
+    display: flex;
+    align-items: center;
+}
